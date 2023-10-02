@@ -1,0 +1,25 @@
+{
+  "name": "web-scrapping-cli",
+  "version": "1.0.0",
+  "description": "This CLI application, built with Node.js, scrapes web pages using the specified URL and CSS selector. It utilizes external libraries such as Axios for HTTP requests and Cheerio for HTML parsing. Users can extract and print the text content of specific elements from web pages directly from the command line.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jishnu0712/node-web-scrapping-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jishnu0712/node-web-scrapping-cli/issues"
+  },
+  "homepage": "https://github.com/jishnu0712/node-web-scrapping-cli#readme",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^11.0.0"
+  }
+}
